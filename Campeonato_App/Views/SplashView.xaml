@@ -9,9 +9,9 @@
         <StackLayout>
             <Image
                 Source="app_logo.png"
-                WidthRequest = "200"
-                Margin="0,170,0,0"
-                HeightRequest="200"
+                WidthRequest = "250"
+                Margin="0,130,0,0"
+                HeightRequest="250"
                 HorizontalOptions="CenterAndExpand"
                 />
 
@@ -19,27 +19,32 @@
                 VerticalOptions="Center"
                 HorizontalOptions="Center" 
                 FontSize="25"
-                TextColor="Gray"
+                TextColor="#9e9e9e"
                 Margin="0,30,0,50"
                    />
-
             <StackLayout
-                Orientation="Horizontal">
+                Orientation="Vertical"
+                VerticalOptions="EndAndExpand"
+                Spacing="-38"
+                >
+                <StackLayout
+                Orientation="Horizontal"
+                    >
                 <Label Text="Realização"
-                VerticalOptions="CenterAndExpand"
+ 
                 HorizontalOptions="CenterAndExpand" 
                 FontSize="17"
-                TextColor="Gray"
-                Margin="0,130,30,0"
+                TextColor="#9e9e9e"
+                Margin="0,0,49,0"
                    />
                 
                 
                 <Label Text="Apoio"
-                VerticalOptions="CenterAndExpand"
+       
                 HorizontalOptions="CenterAndExpand" 
                 FontSize="17"
-                TextColor="Gray"
-                Margin="0,130,25,0"
+                TextColor="#9e9e9e"
+                Margin="0,0,35,0"
                    />
             </StackLayout>
 
@@ -47,19 +52,20 @@
                 Orientation="Horizontal">
             <Image
                 Source="fifa_logo.png"
-                WidthRequest = "100"
-                HeightRequest="100"
+                WidthRequest = "130"
+                HeightRequest="130"
                 HorizontalOptions="CenterAndExpand"
                 />
 
             <Image
                 Source="WS_Towers.png"
-                WidthRequest = "100"
-                HeightRequest="100"
+                WidthRequest = "150"
+                HeightRequest="150"
                 HorizontalOptions="CenterAndExpand"
+                
                 />
             </StackLayout>
-            
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

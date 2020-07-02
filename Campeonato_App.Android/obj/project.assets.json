@@ -1975,11 +1975,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mateu\\Documents\\Campeonato_App\\Campeonato_App.Android\\Campeonato_App.Android.csproj",
+      "projectUniqueName": "C:\\Users\\mateu\\Documents\\WsTower-Mobile\\Campeonato_App.Android\\Campeonato_App.Android.csproj",
       "projectName": "Campeonato_App.Android",
-      "projectPath": "C:\\Users\\mateu\\Documents\\Campeonato_App\\Campeonato_App.Android\\Campeonato_App.Android.csproj",
+      "projectPath": "C:\\Users\\mateu\\Documents\\WsTower-Mobile\\Campeonato_App.Android\\Campeonato_App.Android.csproj",
       "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mateu\\Documents\\Campeonato_App\\Campeonato_App.Android\\obj\\",
+      "outputPath": "C:\\Users\\mateu\\Documents\\WsTower-Mobile\\Campeonato_App.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2000,8 +2000,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\mateu\\Documents\\Campeonato_App\\Campeonato_App\\Campeonato_App.csproj": {
-              "projectPath": "C:\\Users\\mateu\\Documents\\Campeonato_App\\Campeonato_App\\Campeonato_App.csproj"
+            "C:\\Users\\mateu\\Documents\\WsTower-Mobile\\Campeonato_App\\Campeonato_App.csproj": {
+              "projectPath": "C:\\Users\\mateu\\Documents\\WsTower-Mobile\\Campeonato_App\\Campeonato_App.csproj"
             }
           }
         }

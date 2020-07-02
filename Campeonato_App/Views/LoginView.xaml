@@ -27,7 +27,7 @@
                 Margin="0,130,0,0"
                 />
             
-            <StackLayout VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="350" Orientation="Horizontal">
+            <StackLayout VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="370" Orientation="Horizontal">
                 
 
                 <Image Source="baseline_person_black_48dp.png" 
@@ -43,7 +43,7 @@
                    />
             </StackLayout>
 
-            <StackLayout VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="350" Orientation="Horizontal">
+            <StackLayout VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="370" Orientation="Horizontal">
 
                 <Image Source="baseline_lock_black_48dp.png" 
                        WidthRequest="33"
@@ -60,10 +60,10 @@
             </StackLayout>
 
             <Button Text="Entrar" 
-                    BackgroundColor="MediumSeaGreen" 
-                    FontSize="15"
-                    TextColor="White" VerticalOptions="Center" 
-                    HorizontalOptions="Center" 
+                    BackgroundColor="#03A65A" 
+                    TextColor="White" 
+                    VerticalOptions="Center" 
+                    HorizontalOptions="CenterAndExpand" 
                     WidthRequest="130"
                     HeightRequest="40"
                     CornerRadius="7"
@@ -71,10 +71,11 @@
 
 
             <Button Text="Cadastrar-se" 
-                    TextColor="DarkTurquoise" 
+                    TextColor="#048ABF" 
                     BackgroundColor="Transparent"
-                    FontSize="16"
-                    Margin="0,150,0,0"/>
+                   FontSize="17"
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="FillAndExpand"/>
 
 
 

@@ -610,11 +610,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mateu\\Documents\\Campeonato_App\\Campeonato_App\\Campeonato_App.csproj",
+      "projectUniqueName": "C:\\Users\\mateu\\Documents\\WsTower-Mobile\\Campeonato_App\\Campeonato_App.csproj",
       "projectName": "Campeonato_App",
-      "projectPath": "C:\\Users\\mateu\\Documents\\Campeonato_App\\Campeonato_App\\Campeonato_App.csproj",
+      "projectPath": "C:\\Users\\mateu\\Documents\\WsTower-Mobile\\Campeonato_App\\Campeonato_App.csproj",
       "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mateu\\Documents\\Campeonato_App\\Campeonato_App\\obj\\",
+      "outputPath": "C:\\Users\\mateu\\Documents\\WsTower-Mobile\\Campeonato_App\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

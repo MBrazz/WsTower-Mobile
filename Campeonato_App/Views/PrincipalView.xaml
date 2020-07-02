@@ -19,25 +19,28 @@
                 Source="baseline_clear_black_18dp.png"
                 WidthRequest = "30"
                 VerticalOptions="CenterAndExpand"
+                Margin="20,10,0,0"
                 HorizontalOptions="Start"
                 />
                 
             <Label
                 Text= "08/07/2020"
-                FontSize="20"
-                HorizontalOptions="Center"
-                VerticalOptions="CenterAndExpand"
+                FontSize="18"
+                HorizontalOptions="EndAndExpand"
+                VerticalOptions="EndAndExpand"
                 />
             <Image
                 Source="baseline_search_black_18dp.png"
                 WidthRequest = "30"
                 HorizontalOptions="EndAndExpand"
+                Margin="0,10,20,0"
                 />
             </StackLayout>
             <Image
                 BackgroundColor="Gray"
                 HeightRequest="1"
                 HorizontalOptions="FillAndExpand"
+                
                 />
             <!--<ListView>
                 <ListView.ItemsSource>
@@ -74,7 +77,7 @@
                                 />
                                 <Label
                                     Text="{Binding placarVisitante}"
-                                    HorizontalOptions="Center"
+                                    HorizontalOptions="CenterAndExpand"
                                     VerticalOptions="CenterAndExpand"
                                 />
                                 <Label
