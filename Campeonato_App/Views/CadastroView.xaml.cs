@@ -15,6 +15,12 @@ namespace Campeonato_App.Views
         public CadastroView()
         {
             InitializeComponent();
+            NavigationPage.SetHasNavigationBar(this, false);
+        }
+
+        private void Entrar_Clicked(object sender, EventArgs e)
+        {
+            Navigation.RemovePage(this);
         }
     }
 }

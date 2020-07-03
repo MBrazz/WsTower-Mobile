@@ -1443,3 +1443,7 @@ C:\Users\mateu\Documents\WsTower-Mobile\Campeonato_App.Android\obj\Debug\90\stam
 C:\Users\mateu\Documents\WsTower-Mobile\Campeonato_App.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\mateu\Documents\WsTower-Mobile\Campeonato_App.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
 C:\Users\mateu\Documents\WsTower-Mobile\Campeonato_App.Android\obj\Debug\90\res\drawable\baseline_email_black_48dp.png
+C:\Users\mateu\Documents\WsTower-Mobile\Campeonato_App.Android\obj\Debug\90\res\drawable\alemanha_bandeira.jpg
+C:\Users\mateu\Documents\WsTower-Mobile\Campeonato_App.Android\obj\Debug\90\res\drawable\argentina_bandeira.jpg
+C:\Users\mateu\Documents\WsTower-Mobile\Campeonato_App.Android\obj\Debug\90\res\drawable\brasil_bandeira.jpg
+C:\Users\mateu\Documents\WsTower-Mobile\Campeonato_App.Android\obj\Debug\90\res\drawable\espanha_bandeira.jpg

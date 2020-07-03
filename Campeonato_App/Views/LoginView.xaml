@@ -8,18 +8,7 @@
     <ContentPage.Content>
         <StackLayout>
 
-
-            <!--<Label Text="Login"
-                VerticalOptions="Center"
-                HorizontalOptions="Center" 
-                FontSize="30"
-                TextColor="Blue"
-                FontAttributes="Bold"
-                Padding="50"
-                   />-->
-
-
-            <Image
+              <Image
                 Source="app_logo.png"
                 WidthRequest = "180"
                 HeightRequest="180"
@@ -59,7 +48,8 @@
                    ClearButtonVisibility="WhileEditing" />
             </StackLayout>
 
-            <Button Text="Entrar" 
+            <Button Text="Entrar"
+                    Clicked="Entrar_Clicked"
                     BackgroundColor="#03A65A" 
                     TextColor="White" 
                     VerticalOptions="Center" 
@@ -71,6 +61,7 @@
 
 
             <Button Text="Cadastrar-se" 
+                    Clicked="Cadastrar_Clicked"
                     TextColor="#048ABF" 
                     BackgroundColor="Transparent"
                    FontSize="17"

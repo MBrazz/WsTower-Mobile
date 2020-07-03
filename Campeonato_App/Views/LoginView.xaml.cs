@@ -15,6 +15,17 @@ namespace Campeonato_App.Views
         public LoginView()
         {
             InitializeComponent();
+            NavigationPage.SetHasNavigationBar(this, false);
+        }
+
+        private void Entrar_Clicked(object sender, EventArgs e)
+        {
+            App.Current.MainPage = new NavigationPage(new PrincipalView());
+        }
+
+        private void Cadastrar_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new CadastroView());
         }
     }
 }

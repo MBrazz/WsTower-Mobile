@@ -15,6 +15,17 @@ namespace Campeonato_App.Views
         public SplashView()
         {
             InitializeComponent();
+
+            Navegacao();
+
+
+        }
+
+        private async void Navegacao()
+        {
+            await Task.Delay(3000);
+
+            App.Current.MainPage = new NavigationPage(new LoginView());
         }
     }
 }

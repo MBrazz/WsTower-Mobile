@@ -4,22 +4,30 @@ using System.Text;
 
 namespace Campeonato_App.Models
 {
-    class Jogo
+    public class Jogo
     {
         public int id { get; set; }
-        public string selecaoCasa { get; set; }
-        public string selecaoVisitante { get; set; }
+        public int selecaoCasa { get; set; }
+        public int selecaoVisitante { get; set; }
         public int placarCasa { get; set; }
         public int placarVisitante { get; set; }
-        //add mais 2 atributos
+        public int penaltisCasa { get; set; }
+        public int penaltisVisitante { get; set; }
         public DateTime data { get; set; }
         public string estadio { get; set; }
 
-        public override string ToString()
+       
+        public string dataFormatada
         {
-            return $"{selecaoCasa} { placarCasa} X {selecaoVisitante} {placarVisitante}";
-
+            get
+            {
+                return data.ToString("dd/MM/yyyy");
+            }
         }
 
+        public override string ToString()
+        {
+            return $"{selecaoCasa} {placarCasa} X {selecaoVisitante} {placarVisitante} ";
+        }
     }
 }

@@ -99,8 +99,9 @@
                     
                         />
 
-            <Button Text="Login" 
-                TextColor="#048ABF" 
+            <Button Text="Login"
+                    Clicked="Entrar_Clicked"
+                    TextColor="#048ABF" 
                     BackgroundColor="Transparent"
                    FontSize="17"
                    VerticalOptions="CenterAndExpand"
